@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { MAP_EMBED_URL } from "@/config/location";
 
 export default function LocationSection() {
   const t = useTranslations("findUs");
@@ -22,7 +23,7 @@ export default function LocationSection() {
           <div className="lg:col-span-3 rounded-sm overflow-hidden border border-gray-200 h-[400px] lg:h-auto">
             <iframe
               title="Boa Massa Location on OpenStreetMap"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-3.7100%2C40.4550%2C-3.6900%2C40.4650&layer=mapnik&marker=40.4600%2C-3.7000"
+              src={MAP_EMBED_URL}
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "400px" }}

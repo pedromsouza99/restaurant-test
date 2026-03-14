@@ -3,29 +3,13 @@ import { useTranslations } from "next-intl";
 import Hero from "@/components/Hero";
 import LocationSection from "@/components/LocationSection";
 import { Link } from "@/i18n/navigation";
+import { featuredItems } from "@/data/featured";
+
+const DELAY_CLASSES = ["delay-100", "delay-200", "delay-300", "delay-400"] as const;
 
 export default function HomePage() {
   const t = useTranslations("about");
   const featured = useTranslations("featured");
-
-  const featuredItems = [
-    {
-      key: "croissant",
-      image: "/images/croissant.webp",
-    },
-    {
-      key: "churro",
-      image: "/images/churros.webp",
-    },
-    {
-      key: "latte",
-      image: "/images/latte.webp",
-    },
-    {
-      key: "pastry",
-      image: "/images/almond-pastry.webp",
-    },
-  ] as const;
 
   return (
     <>
@@ -106,7 +90,7 @@ export default function HomePage() {
             {featuredItems.map((item, index) => (
               <div
                 key={item.key}
-                className={`group bg-white-pure rounded-sm border border-gray-100 overflow-hidden transition-all duration-500 hover:border-oak/40 hover:shadow-lg hover:shadow-oak/5 animate-fade-in-up delay-${(index + 1) * 100}`}
+                className={`group bg-white-pure rounded-sm border border-gray-100 overflow-hidden transition-all duration-500 hover:border-oak/40 hover:shadow-lg hover:shadow-oak/5 animate-fade-in-up ${DELAY_CLASSES[index] ?? ""}`}
               >
                 <div className="relative h-56 overflow-hidden">
                   <Image
