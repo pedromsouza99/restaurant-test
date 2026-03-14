@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Boa Massa — Artisan Bakery & Coffee",
+    "description": "Handcrafted pastries, fresh bread, and specialty coffee in the heart of Madrid."
+  },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "findUs": "Where to Find Us"
+  },
+  "hero": {
+    "title": "Boa Massa",
+    "subtitle": "Artisan Bakery & Coffee",
+    "description": "Handcrafted pastries, freshly baked bread, and specialty coffee — made with love every morning.",
+    "cta": "View Our Menu"
+  },
+  "about": {
+    "tagline": "Our Story",
+    "title": "Baked Fresh, Served with Love",
+    "description": "At Boa Massa, we believe that great baking starts with the finest ingredients and a deep respect for tradition. Every croissant, every loaf, every churro is crafted by hand — because some things are worth doing the old-fashioned way.",
+    "highlight": "Made fresh daily since 2020."
+  },
+  "featured": {
+    "tagline": "Favourites",
+    "title": "Signature Selections",
+    "items": {
+      "croissant": {
+        "name": "Butter Croissant",
+        "description": "Flaky, golden, and impossibly buttery."
+      },
+      "churro": {
+        "name": "Classic Churros",
+        "description": "Crispy on the outside, soft inside. Served with chocolate."
+      },
+      "latte": {
+        "name": "Café Latte",
+        "description": "Silky espresso with perfectly steamed milk."
+      },
+      "pastry": {
+        "name": "Almond Pastry",
+        "description": "Delicate puff pastry filled with almond cream."
+      }
+    }
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Everything is baked fresh daily using the finest ingredients.",
+    "categories": {
+      "pastries": "Pastries",
+      "breads": "Breads",
+      "coffee": "Coffee & Drinks",
+      "specials": "Specials"
+    },
+    "items": {
+      "butterCroissant": {
+        "name": "Butter Croissant",
+        "description": "Classic French croissant with rich, golden layers."
+      },
+      "chocolateCroissant": {
+        "name": "Chocolate Croissant",
+        "description": "Flaky pastry filled with premium dark chocolate."
+      },
+      "almondPastry": {
+        "name": "Almond Pastry",
+        "description": "Delicate puff pastry with a sweet almond cream filling."
+      },
+      "classicChurros": {
+        "name": "Classic Churros",
+        "description": "Crispy fried dough dusted with cinnamon sugar, served with chocolate sauce."
+      },
+      "sourdoughLoaf": {
+        "name": "Sourdough Loaf",
+        "description": "Naturally leavened with a crisp crust and tangy crumb."
+      },
+      "baguette": {
+        "name": "Artisan Baguette",
+        "description": "Crusty exterior, airy interior — perfect with butter."
+      },
+      "wholeWheat": {
+        "name": "Whole Wheat Bread",
+        "description": "Hearty and wholesome, made with stone-ground flour."
+      },
+      "espresso": {
+        "name": "Espresso",
+        "description": "Bold, rich single-origin espresso."
+      },
+      "latte": {
+        "name": "Café Latte",
+        "description": "Silky espresso with perfectly steamed milk."
+      },
+      "cappuccino": {
+        "name": "Cappuccino",
+        "description": "Equal parts espresso, steamed milk, and velvety foam."
+      },
+      "hotChocolate": {
+        "name": "Hot Chocolate",
+        "description": "Rich and creamy, made with real Belgian chocolate."
+      },
+      "orangeJuice": {
+        "name": "Fresh Orange Juice",
+        "description": "Freshly squeezed Valencia oranges."
+      },
+      "seasonalTart": {
+        "name": "Seasonal Fruit Tart",
+        "description": "Buttery tart shell filled with pastry cream and seasonal fruits."
+      },
+      "croqueMadame": {
+        "name": "Croque Madame",
+        "description": "Toasted brioche with ham, gruyère, béchamel, and a fried egg."
+      },
+      "granolaBowl": {
+        "name": "Granola Bowl",
+        "description": "House-made granola with Greek yogurt, honey, and fresh berries."
+      }
+    }
+  },
+  "findUs": {
+    "tagline": "Visit Us",
+    "title": "Where to Find Us",
+    "subtitle": "We'd love to see you. Stop by for a coffee and a pastry.",
+    "address": "Calle de la Infanta Mercedes, 56",
+    "city": "Madrid, Spain",
+    "phone": "+34 912 345 678",
+    "email": "hello@boamassa.com",
+    "hoursLabel": "Opening Hours",
+    "hours": "Monday – Sunday: 9:00 – 18:00",
+    "addressLabel": "Address",
+    "contactLabel": "Contact"
+  },
+  "footer": {
+    "about": "Boa Massa is an artisan bakery and coffee shop in the heart of Madrid, crafting fresh pastries and specialty coffee daily.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Us",
+    "rights": "All rights reserved."
+  },
+  "language": {
+    "label": "Language",
+    "en": "English"
+  }
+}
